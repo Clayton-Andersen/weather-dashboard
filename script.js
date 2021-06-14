@@ -1,4 +1,7 @@
 //event listener button click to recieve input value
+// var searchFormEl = document.querySelector("#search-form");
+// var cityInputEl = document.querySelector("#city-input");
+
 
 $(document).ready(function() {
     $("#search-btn").on("click", function () {
@@ -20,3 +23,18 @@ $(document).ready(function() {
     });
     
 });
+
+// attempt to render to html
+// var renderCity = function() {
+//     var searchedCity = $("#searched-city");
+//     searchedCityt.html("")
+//     for (var i = 0; i < locationArr.length; i++) {
+//         var location = $("<button></button>")
+//             .attr("id", "searched-city-" + i)
+//             .addClass("list-group-item list-group-item-action prev-loc")
+//             .text(locationArr[i]);
+//         searchedCity.append(location);
+//     }
+// }
+
+// searchFormEl.addEventListener("submit",CityInputFormClick);
